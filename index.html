@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+    <style>@import url(styles.css); </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>¡Encriptador de texto!</h1>
+            <textarea id="inputText" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="buttons">
+                <button onclick="encryptText()">Encriptar</button>
+                <button onclick="decryptText()">Desencriptar</button>
+            </div>
+            <textarea id="outputText" placeholder="Resultado"></textarea>
+            <button onclick="copyText()">Copiar</button>
+            <p id="errorMessage" class="error"></p> <!-- Mensaje de error -->
+        </div>
+        <script src="app.js"></script>
+
+        <footer>
+            <p>Desarrollado por <span id="creatorName">Maria Camila Gomez Mora</span></p>
+            <a href="https://co.linkedin.com/in/maria-camila-gomez-mora-aa9634212" id="link">Linkedin</a>
+            <p id="date">Fecha: 2024</p>
+        </footer>
+        
+
+    </section>
+    
+</body>
+</html>
